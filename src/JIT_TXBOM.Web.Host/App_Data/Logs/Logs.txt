@@ -1,0 +1,224 @@
+DEBUG 2020-02-10 21:41:28,707 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-10 21:41:28,878 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-10 21:41:28,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.Web.Host.Startup.JIT_TXBOMWebHostModule, JIT_TXBOM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMWebCoreModule, JIT_TXBOM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMApplicationModule, JIT_TXBOM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMCoreModule, JIT_TXBOM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.EntityFrameworkCore.JIT_TXBOMEntityFrameworkModule, JIT_TXBOM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:28,902 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-10 21:41:29,004 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:41:29,005 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:41:29,005 [1    ] o.Configuration.LanguageManagementConfig - Converted JIT_TXBOM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:41:29,005 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:41:29,311 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: JIT_TXBOM.EntityFrameworkCore.JIT_TXBOMDbContext, JIT_TXBOM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:41:30,290 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-10 21:41:30,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-10 21:41:30,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-10 21:41:30,417 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JIT_TXBOM
+DEBUG 2020-02-10 21:41:30,442 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-10 21:41:30,608 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-10 21:41:30,764 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-10 21:41:30,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-02-10 21:41:30,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-10 21:41:30,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Users.Dto.CreateUserDto
+DEBUG 2020-02-10 21:41:30,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Users.Dto.UserDto
+DEBUG 2020-02-10 21:41:30,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-10 21:41:30,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-10 21:41:30,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Roles.Dto.PermissionDto
+DEBUG 2020-02-10 21:41:30,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-10 21:41:30,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.MultiTenancy.Dto.TenantDto
+INFO  2020-02-10 21:41:36,662 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2020-02-10 21:41:36,662 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2020-02-10 21:41:36,662 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2020-02-10 21:41:36,662 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-02-10 21:41:36,761 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 110.6866ms 200 
+INFO  2020-02-10 21:41:36,763 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 110.6433ms 200 
+WARN  2020-02-10 21:41:36,874 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:36,874 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:36,877 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:36,880 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:41:37,014 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host)'
+INFO  2020-02-10 21:41:37,084 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 437.6713ms 404 
+INFO  2020-02-10 21:41:40,475 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host)
+INFO  2020-02-10 21:41:41,654 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host) - Validation state: Valid
+INFO  2020-02-10 21:41:41,660 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.6671ms.
+INFO  2020-02-10 21:41:41,747 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-02-10 21:41:41,759 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host) in 1277.2428ms
+INFO  2020-02-10 21:41:41,762 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host)'
+INFO  2020-02-10 21:41:41,770 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5123.7023ms 302 
+INFO  2020-02-10 21:41:41,774 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+WARN  2020-02-10 21:41:41,777 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:41,779 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:41:41,783 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9134ms 301 
+INFO  2020-02-10 21:41:41,790 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+WARN  2020-02-10 21:41:41,792 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:41,794 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:41:41,955 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 164.8791ms 200 text/html
+INFO  2020-02-10 21:41:41,980 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+WARN  2020-02-10 21:41:41,985 [5    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:41,987 [5    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:41:42,014 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+WARN  2020-02-10 21:41:42,018 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:42,021 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:41:42,025 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+WARN  2020-02-10 21:41:42,029 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:42,032 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:41:42,036 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-02-10 21:41:42,054 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-02-10 21:41:42,084 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\工作\同向BOM导入\JIT_TXBOM\aspnet-core\src\JIT_TXBOM.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-02-10 21:41:42,092 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-02-10 21:41:42,099 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-02-10 21:41:42,115 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\工作\同向BOM导入\JIT_TXBOM\aspnet-core\src\JIT_TXBOM.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-02-10 21:41:42,118 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.7636ms 200 application/javascript
+INFO  2020-02-10 21:41:42,124 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.3994ms 200 text/css
+INFO  2020-02-10 21:41:42,128 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.1225ms 200 application/javascript
+INFO  2020-02-10 21:41:42,132 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.6803ms 200 application/javascript
+INFO  2020-02-10 21:41:42,137 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-02-10 21:41:42,142 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 126.9268ms 200 application/javascript
+INFO  2020-02-10 21:41:42,679 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2020-02-10 21:41:42,681 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+WARN  2020-02-10 21:41:42,684 [17   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:42,686 [18   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:42,688 [17   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:41:42,690 [18   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:41:42,694 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2020-02-10 21:41:42,699 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.6226ms 200 image/png
+INFO  2020-02-10 21:41:42,946 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 267.3984ms 200 application/json;charset=utf-8
+INFO  2020-02-10 21:48:10,707 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2020-02-10 21:48:10,715 [40   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-02-10 21:48:10,717 [40   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2020-02-10 21:48:10,722 [40   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:48:10,724 [40   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:48:10,727 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'JIT_TXBOM.Controllers.TokenAuthController.Authenticate (JIT_TXBOM.Web.Core)'
+INFO  2020-02-10 21:48:10,757 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action JIT_TXBOM.Controllers.TokenAuthController.Authenticate (JIT_TXBOM.Web.Core)
+INFO  2020-02-10 21:48:10,759 [40   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-02-10 21:48:10,761 [40   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-02-10 21:48:11,198 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method JIT_TXBOM.Controllers.TokenAuthController.Authenticate (JIT_TXBOM.Web.Core) with arguments (JIT_TXBOM.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2020-02-10 21:48:11,776 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method JIT_TXBOM.Controllers.TokenAuthController.Authenticate (JIT_TXBOM.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 575.7201ms.
+INFO  2020-02-10 21:48:11,816 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-10 21:48:11,835 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action JIT_TXBOM.Controllers.TokenAuthController.Authenticate (JIT_TXBOM.Web.Core) in 1076.3504ms
+INFO  2020-02-10 21:48:11,838 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'JIT_TXBOM.Controllers.TokenAuthController.Authenticate (JIT_TXBOM.Web.Core)'
+INFO  2020-02-10 21:48:11,841 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1133.845ms 200 application/json; charset=utf-8
+DEBUG 2020-02-10 21:53:55,192 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-10 21:53:55,299 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-10 21:53:55,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.Web.Host.Startup.JIT_TXBOMWebHostModule, JIT_TXBOM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMWebCoreModule, JIT_TXBOM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMApplicationModule, JIT_TXBOM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMCoreModule, JIT_TXBOM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.EntityFrameworkCore.JIT_TXBOMEntityFrameworkModule, JIT_TXBOM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:55,321 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-10 21:53:55,382 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:53:55,382 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:53:55,382 [1    ] o.Configuration.LanguageManagementConfig - Converted JIT_TXBOM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:53:55,382 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-10 21:53:55,687 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: JIT_TXBOM.EntityFrameworkCore.JIT_TXBOMDbContext, JIT_TXBOM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-10 21:53:56,472 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-10 21:53:56,526 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-10 21:53:56,566 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-10 21:53:56,590 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JIT_TXBOM
+DEBUG 2020-02-10 21:53:56,621 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-10 21:53:56,784 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-10 21:53:56,896 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-10 21:53:56,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-02-10 21:53:56,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-10 21:53:56,939 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Users.Dto.CreateUserDto
+DEBUG 2020-02-10 21:53:56,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Users.Dto.UserDto
+DEBUG 2020-02-10 21:53:56,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-10 21:53:56,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-10 21:53:56,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Roles.Dto.PermissionDto
+DEBUG 2020-02-10 21:53:56,940 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-10 21:53:56,941 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.MultiTenancy.Dto.TenantDto
+INFO  2020-02-10 21:54:00,833 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-02-10 21:54:00,833 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2020-02-10 21:54:00,904 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.0224ms 200 
+WARN  2020-02-10 21:54:00,998 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:54:01,001 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:54:01,120 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host)'
+INFO  2020-02-10 21:54:04,256 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host)
+INFO  2020-02-10 21:54:05,242 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host) - Validation state: Valid
+INFO  2020-02-10 21:54:05,248 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.7522ms.
+INFO  2020-02-10 21:54:05,482 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-02-10 21:54:05,495 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host) in 1233.4884ms
+INFO  2020-02-10 21:54:05,499 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'JIT_TXBOM.Web.Host.Controllers.HomeController.Index (JIT_TXBOM.Web.Host)'
+INFO  2020-02-10 21:54:05,516 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4690.1356ms 302 
+INFO  2020-02-10 21:54:05,521 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+WARN  2020-02-10 21:54:05,525 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:54:05,528 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:54:05,706 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184.7304ms 200 text/html
+INFO  2020-02-10 21:54:05,730 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-02-10 21:54:05,732 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-02-10 21:54:05,754 [16   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-02-10 21:54:05,757 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-02-10 21:54:05,763 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.4921ms 304 application/javascript
+INFO  2020-02-10 21:54:05,766 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.6474ms 304 application/javascript
+INFO  2020-02-10 21:54:06,127 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+WARN  2020-02-10 21:54:06,130 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-02-10 21:54:06,132 [16   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-02-10 21:54:06,344 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217.0571ms 200 application/json;charset=utf-8
+DEBUG 2020-02-11 00:16:16,555 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-11 00:16:16,578 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-11 00:16:16,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.Web.Host.Startup.JIT_TXBOMWebHostModule, JIT_TXBOM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMWebCoreModule, JIT_TXBOM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMApplicationModule, JIT_TXBOM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.JIT_TXBOMCoreModule, JIT_TXBOM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JIT_TXBOM.EntityFrameworkCore.JIT_TXBOMEntityFrameworkModule, JIT_TXBOM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:16,605 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-11 00:16:16,670 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-11 00:16:16,670 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-11 00:16:16,671 [1    ] o.Configuration.LanguageManagementConfig - Converted JIT_TXBOM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-11 00:16:16,671 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-11 00:16:16,920 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: JIT_TXBOM.EntityFrameworkCore.JIT_TXBOMDbContext, JIT_TXBOM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-11 00:16:17,254 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-11 00:16:17,305 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-11 00:16:17,343 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-11 00:16:17,365 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JIT_TXBOM
+DEBUG 2020-02-11 00:16:17,390 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-11 00:16:17,430 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-11 00:16:17,452 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-11 00:16:17,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-02-11 00:16:17,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-11 00:16:17,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Users.Dto.CreateUserDto
+DEBUG 2020-02-11 00:16:17,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Users.Dto.UserDto
+DEBUG 2020-02-11 00:16:17,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-11 00:16:17,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-11 00:16:17,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.Roles.Dto.PermissionDto
+DEBUG 2020-02-11 00:16:17,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-11 00:16:17,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - JIT_TXBOM.MultiTenancy.Dto.TenantDto
+INFO  2020-02-11 00:16:20,659 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-02-11 00:16:20,704 [18   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-02-11 00:16:20,704 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:8078 does not have permission to access the resource.
+INFO  2020-02-11 00:16:20,742 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 87.2922ms 204 
+INFO  2020-02-11 00:16:57,605 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-02-11 00:16:57,605 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-02-11 00:16:57,605 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:8078 does not have permission to access the resource.
+INFO  2020-02-11 00:16:57,605 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4691ms 204 
