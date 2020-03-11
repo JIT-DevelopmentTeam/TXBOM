@@ -1,8 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
+using JIT_TXBOM.Material;
 
 namespace JIT_TXBOM.ImportBusiness.MaterialTemplate
 {
+    /// <summary>
+    /// 物料导入模板对象
+    /// </summary>
+    [AutoMapFrom(typeof(MaterialTemplateModel))]
+    [AutoMapTo(typeof(MaterialTemplateModel))]
     public class MaterialTemplateModelDTO:EntityDto
     {
         /// <summary>
@@ -31,5 +38,10 @@ namespace JIT_TXBOM.ImportBusiness.MaterialTemplate
         /// 物料编码
         /// </summary>
         public string FNumber { get; set; }
+
+        /// <summary>
+        /// K3帐套ID
+        /// </summary>
+        public int SetBookID { get; set; }
     }
 }

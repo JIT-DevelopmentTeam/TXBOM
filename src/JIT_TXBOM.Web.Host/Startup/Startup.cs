@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using Microsoft.AspNetCore.Builder;
@@ -54,9 +56,11 @@ namespace JIT_TXBOM.Web.Host.Startup
                                 .Split(",", StringSplitOptions.RemoveEmptyEntries)
                                 .Select(o => o.RemovePostFix("/"))
                                 .ToArray()
+                            
                         )
+
+                        .AllowAnyOrigin()
                         .AllowAnyHeader()
-                        .AllowAnyMethod()
                         .AllowCredentials()
                 )
             );
@@ -75,6 +79,11 @@ namespace JIT_TXBOM.Web.Host.Startup
                     In = "header",
                     Type = "apiKey"
                 });
+
+                var xmlFiles = GetXMLFilePath();
+
+                xmlFiles.ForEach(f => { options.IncludeXmlComments(f); });
+
             });
 
             // Configure Abp and Dependency Injection
@@ -84,6 +93,21 @@ namespace JIT_TXBOM.Web.Host.Startup
                     f => f.UseAbpLog4Net().WithConfig("log4net.config")
                 )
             );
+
+            
+        }
+
+        private List<string> GetXMLFilePath()
+        {
+            var files = Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory);
+
+            if (files != null)
+            {
+                return files.Where(p => p.EndsWith(".xml")).ToList();
+            }
+
+            return null;
+
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -119,9 +143,12 @@ namespace JIT_TXBOM.Web.Host.Startup
             // Enable middleware to serve swagger-ui assets (HTML, JS, CSS etc.)
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint(_appConfiguration["App:ServerRootAddress"].EnsureEndsWith('/') + "swagger/v1/swagger.json", "JIT_TXBOM API V1");
+                options.SwaggerEndpoint( "/swagger/v1/swagger.json", "JIT_TXBOM API V1");
                 options.IndexStream = () => Assembly.GetExecutingAssembly()
                     .GetManifestResourceStream("JIT_TXBOM.Web.Host.wwwroot.swagger.ui.index.html");
+
+                
+
             }); // URL: /swagger
         }
     }

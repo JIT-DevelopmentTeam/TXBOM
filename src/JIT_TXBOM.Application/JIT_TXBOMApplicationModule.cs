@@ -1,4 +1,5 @@
-﻿using Abp.AutoMapper;
+﻿using System;
+using Abp.AutoMapper;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using JIT_TXBOM.Authorization;
@@ -13,6 +14,8 @@ namespace JIT_TXBOM
         public override void PreInitialize()
         {
             Configuration.Authorization.Providers.Add<JIT_TXBOMAuthorizationProvider>();
+
+            
         }
 
         public override void Initialize()

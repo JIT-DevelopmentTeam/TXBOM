@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace JIT_TXBOM.Migrations
 {
-    public partial class InitMysqlDB : Migration
+    public partial class InitMysql : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -389,6 +389,56 @@ namespace JIT_TXBOM.Migrations
                         principalTable: "AbpUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "K3Api",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Name = table.Column<string>(nullable: false),
+                    AuthorityCode = table.Column<string>(nullable: false),
+                    Remark = table.Column<string>(nullable: true),
+                    Token = table.Column<string>(nullable: true),
+                    TokenExpiredTime = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_K3Api", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "LocalMaterialMapCustomMaterial",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    CustomID = table.Column<int>(nullable: false),
+                    LocalFNumber = table.Column<string>(nullable: true),
+                    CustomFNumber = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_LocalMaterialMapCustomMaterial", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "MaterialTemplate",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    FItemID = table.Column<int>(nullable: false),
+                    Name = table.Column<string>(nullable: false),
+                    Enable = table.Column<bool>(nullable: false),
+                    Template = table.Column<string>(nullable: false),
+                    FNumber = table.Column<string>(nullable: true),
+                    SetBookID = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MaterialTemplate", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -1114,6 +1164,15 @@ namespace JIT_TXBOM.Migrations
 
             migrationBuilder.DropTable(
                 name: "AbpUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "K3Api");
+
+            migrationBuilder.DropTable(
+                name: "LocalMaterialMapCustomMaterial");
+
+            migrationBuilder.DropTable(
+                name: "MaterialTemplate");
 
             migrationBuilder.DropTable(
                 name: "AbpEntityChanges");

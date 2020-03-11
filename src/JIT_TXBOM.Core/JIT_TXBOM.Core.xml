@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JIT_TXBOM.Core</name>
+    </assembly>
+    <members>
+        <member name="T:JIT_TXBOM.AppVersionHelper">
+            <summary>
+            Central point for application version.
+            </summary>
+        </member>
+        <member name="F:JIT_TXBOM.AppVersionHelper.Version">
+            <summary>
+            Gets current version of the application.
+            It's also shown in the web page.
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.AppVersionHelper.ReleaseDate">
+            <summary>
+            Gets release (last build) date of the application.
+            It's shown in the web page.
+            </summary>
+        </member>
+        <member name="T:JIT_TXBOM.K3APIUrl.K3ApiUrl">
+            <summary>
+            K3API连接信息对象
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.K3APIUrl.K3ApiUrl.Name">
+            <summary>
+            连接名称（帐套名称）
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.K3APIUrl.K3ApiUrl.AuthorityCode">
+            <summary>
+            账套密钥
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.K3APIUrl.K3ApiUrl.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.LocalMaterialMapCustomMaterial.LocalMaterialMapCustomMaterial.CustomID">
+            <summary>
+            客户ID
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.LocalMaterialMapCustomMaterial.LocalMaterialMapCustomMaterial.LocalFNumber">
+            <summary>
+            本地物料编码
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.LocalMaterialMapCustomMaterial.LocalMaterialMapCustomMaterial.CustomFNumber">
+            <summary>
+            客户物料编码
+            </summary>
+        </member>
+        <member name="T:JIT_TXBOM.Material.MaterialTemplateModel">
+            <summary>
+            物料模板
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.Material.MaterialTemplateModel.FItemID">
+            <summary>
+            物料内码
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.Material.MaterialTemplateModel.Name">
+            <summary>
+            模板名称
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.Material.MaterialTemplateModel.Enable">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.Material.MaterialTemplateModel.Template">
+            <summary>
+            模板JSON
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.Material.MaterialTemplateModel.FNumber">
+            <summary>
+            物料编码
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.Material.MaterialTemplateModel.SetBookID">
+            <summary>
+            K3帐套ID
+            </summary>
+        </member>
+        <member name="P:JIT_TXBOM.Timing.AppTimes.StartupTime">
+            <summary>
+            Gets the startup time of the application.
+            </summary>
+        </member>
+        <member name="T:JIT_TXBOM.Web.WebContentDirectoryFinder">
+            <summary>
+            This class is used to find root path of the web project in;
+            unit tests (to find views) and entity framework core command line commands (to find conn string).
+            </summary>
+        </member>
+    </members>
+</doc>

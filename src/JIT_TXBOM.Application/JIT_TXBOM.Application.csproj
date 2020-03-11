@@ -10,6 +10,13 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <RootNamespace>JIT_TXBOM</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Debug\JIT_TXBOM.Application.xml</DocumentationFile>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\工作\同向BOM导入\JIT_TXBOM\aspnet-core\src\JIT_TXBOM.Application\JIT_TXBOM.Application.xml</DocumentationFile>
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\JIT_TXBOM.Core\JIT_TXBOM.Core.csproj" />
   </ItemGroup>

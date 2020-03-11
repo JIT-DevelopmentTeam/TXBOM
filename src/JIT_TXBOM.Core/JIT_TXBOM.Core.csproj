@@ -11,6 +11,9 @@
     <UserSecretsId>AbpCompanyName-JIT_TXBOM-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
     <RootNamespace>JIT_TXBOM</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\工作\同向BOM导入\JIT_TXBOM\aspnet-core\src\JIT_TXBOM.Core\JIT_TXBOM.Core.xml</DocumentationFile>
+  </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="Localization\SourceFiles\*.xml" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
   </ItemGroup>

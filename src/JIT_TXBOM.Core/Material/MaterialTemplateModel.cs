@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Abp.AutoMapper;
 using Abp.Domain.Entities;
 
 namespace JIT_TXBOM.Material
@@ -34,5 +35,10 @@ namespace JIT_TXBOM.Material
         /// 物料编码
         /// </summary>
         public string FNumber { get; set; }
+
+        /// <summary>
+        /// K3帐套ID
+        /// </summary>
+        public int SetBookID { get; set; }
     }
 }

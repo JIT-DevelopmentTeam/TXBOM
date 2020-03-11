@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JIT_TXBOM.Migrations
 {
     [DbContext(typeof(JIT_TXBOMDbContext))]
-    [Migration("20200210161221_Add_MaterialTemplate")]
-    partial class Add_MaterialTemplate
+    [Migration("20200228104450_InitMysql")]
+    partial class InitMysql
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -1011,6 +1011,44 @@ namespace JIT_TXBOM.Migrations
                     b.ToTable("AbpUsers");
                 });
 
+            modelBuilder.Entity("JIT_TXBOM.K3APIUrl.K3ApiUrl", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("AuthorityCode")
+                        .IsRequired();
+
+                    b.Property<string>("Name")
+                        .IsRequired();
+
+                    b.Property<string>("Remark");
+
+                    b.Property<string>("Token");
+
+                    b.Property<DateTime>("TokenExpiredTime");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("K3Api");
+                });
+
+            modelBuilder.Entity("JIT_TXBOM.LocalMaterialMapCustomMaterial.LocalMaterialMapCustomMaterial", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CustomFNumber");
+
+                    b.Property<int>("CustomID");
+
+                    b.Property<string>("LocalFNumber");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LocalMaterialMapCustomMaterial");
+                });
+
             modelBuilder.Entity("JIT_TXBOM.Material.MaterialTemplateModel", b =>
                 {
                     b.Property<int>("Id")
@@ -1024,6 +1062,8 @@ namespace JIT_TXBOM.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired();
+
+                    b.Property<int>("SetBookID");
 
                     b.Property<string>("Template")
                         .IsRequired();
